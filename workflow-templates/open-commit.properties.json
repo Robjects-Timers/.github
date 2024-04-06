@@ -1,0 +1,13 @@
+{
+    "name": "Open Commit Workflow",
+    "description": "Open Commit starter workflow.",
+    "iconName": "example-icon",
+    "categories": [
+        "Go"
+    ],
+    "filePatterns": [
+        "package.json$",
+        "^Dockerfile",
+        ".*\\.md$"
+    ]
+}
