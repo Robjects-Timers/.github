@@ -22,11 +22,6 @@ jobs:
         with:
           GITHUB_TOKEN: '${{ secrets.GITHUB_TOKEN }}'
           pattern: '<!-- issueTable -->' # suffixing "Demo" for this readme
-      - name: Code Todo Bot
-        uses: bilalshaikh42/todo@v0.0.1
-        runs:
-          using: "node14"
-          main: "action.js"
       # Runs a set of commands using the runners shell
       - name: Run a multi-line script
         run: |
