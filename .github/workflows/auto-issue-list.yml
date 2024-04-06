@@ -1,0 +1,12 @@
+- name: Auto Issue List
+  uses: seed-of-apricot/issue-list-readme@v1.1.0
+    with:
+      #token
+      GITHUB_TOKEN: '${{ secrets.GITHUB_TOKEN }}'
+      # pattern to detect the place to locate the table
+      pattern: # optional, default is <!-- issueTable -->
+      # comma-separated labels to filter the issues
+      labels: # optional
+      # state of the issues to filter them (open or closed)
+      state: # optional, default is all
+      
