@@ -1,3 +1,5 @@
+[![Run TODO to Issue](https://github.com/Robjects-Timers/.github/actions/workflows/todo-to-issue.yml/badge.svg?branch=main)](https://github.com/Robjects-Timers/.github/actions/workflows/todo-to-issue.yml)
+
 # .github
 
 # setup
