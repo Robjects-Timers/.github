@@ -1,8 +1,3 @@
-on: workflow_dispatch:
-  - name: Auto Issue List
-  uses: seed-of-apricot/issue-list-readme@v1.1.0
-  with:
+uses: seed-of-apricot/issue-list-readme@v1.1.0
+with:
   GITHUB_TOKEN: '${{ secrets.GITHUB_TOKEN }}'
-  pattern: <!-- issueTable --> # optional, default is <!-- issueTable -->
-     
-      
